@@ -40,7 +40,7 @@ On the client side, C++ is used, utilizing Boost for communication and Crypto++ 
 1. The server runs and loads all registered clients from database.
 2. The server creates a socket in the port it read from port.info file (if doesn't exists, it uses the default port 1256).
 3. The server waits for requests.
-![Server loads existing clients and files information and waits](images\server_init.png)
+![Server loads existing clients and files information and waits](images/server_init.png)
 #### Client init
 1. The client reads the server's port and ip address from transfer.info file.
 2. If me.info file exists, client assumes it is registered and loads its name and id from it for a login request.
